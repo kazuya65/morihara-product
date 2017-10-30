@@ -1,0 +1,3526 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: graphviz version 2.38.0 (20140413.2041)
+%%Title: %415
+%%Pages: 1
+%%BoundingBox: 36 36 1710 1390
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+EncodingVector 45 /hyphen put
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+       dup 1 exch div /InvScaleFactor exch def
+       scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+/tapered { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw text fitted to its expected width
+/alignedtext {			% width text
+	/text exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			[] 0 setdash
+			text stringwidth pop width exch sub text length div 0 text ashow
+		} if
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+1 setmiterlimit
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+setupLatin1
+%%Page: 1 1
+%%PageBoundingBox: 36 36 1710 1390
+%%PageOrientation: Portrait
+0 0 1 beginpage
+gsave
+36 36 1674 1354 boxprim clip newpath
+1 1 set_scale 0 rotate 40 40 translate
+% jspetrinet.petri.Place@2db0f6b2
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+909.5 1262.21 18 18 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+904.5 1259.71 moveto 10 (Pa) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@6d1e7682
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 849.5 1208.21 moveto
+715.5 1208.21 lineto
+715.5 1178.21 lineto
+849.5 1178.21 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+777.5 1196.21 moveto 10 (ca) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+723.5 1185.21 moveto 118 ([\(#Pcat1==0\)&&\(#Pcaf1==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@2db0f6b2->jspetrinet.petri.ExpTrans@6d1e7682
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 893.93 1253 moveto
+875.25 1243.14 843.35 1226.31 818.45 1213.18 curveto
+stroke
+0 0 0 edgecolor
+newpath 819.78 1209.92 moveto
+809.3 1208.35 lineto
+816.51 1216.11 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 819.78 1209.92 moveto
+809.3 1208.35 lineto
+816.51 1216.11 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@4c75cab9
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 1155.5 1208.21 moveto
+1021.5 1208.21 lineto
+1021.5 1178.21 lineto
+1155.5 1178.21 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1077.5 1196.21 moveto 22 (cafail) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1029.5 1185.21 moveto 118 ([\(#Pcat1==0\)&&\(#Pcaf1==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@2db0f6b2->jspetrinet.petri.ExpTrans@4c75cab9
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 926.02 1255.03 moveto
+952.03 1245.29 1003.49 1226.03 1041.55 1211.78 curveto
+stroke
+0 0 0 edgecolor
+newpath 1042.78 1215.06 moveto
+1050.92 1208.28 lineto
+1040.33 1208.51 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1042.78 1215.06 moveto
+1050.92 1208.28 lineto
+1040.33 1208.51 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@3a4afd8d
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 938.5 1346.21 moveto
+880.5 1346.21 lineto
+880.5 1316.21 lineto
+938.5 1316.21 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+907 1334.21 moveto 5 (a) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+894 1323.21 moveto 31 ([#Pa<2]) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@3a4afd8d->jspetrinet.petri.Place@2db0f6b2
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 909.5 1316 moveto
+909.5 1308.58 909.5 1299.23 909.5 1290.47 curveto
+stroke
+0 0 0 edgecolor
+newpath 913 1290.25 moveto
+909.5 1280.25 lineto
+906 1290.25 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 913 1290.25 moveto
+909.5 1280.25 lineto
+906 1290.25 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@3c679bde
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+782.5 1119.25 22.24 22.24 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+771.5 1116.75 moveto 22 (Pcat1) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@6d1e7682->jspetrinet.petri.Place@3c679bde
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 782.5 1178 moveto
+782.5 1170.5 782.5 1160.98 782.5 1151.84 curveto
+stroke
+0 0 0 edgecolor
+newpath 786 1151.82 moveto
+782.5 1141.82 lineto
+779 1151.82 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 786 1151.82 moveto
+782.5 1141.82 lineto
+779 1151.82 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@8807e25
+gsave
+0 0 0.82745 nodecolor
+newpath 849.5 1060.3 moveto
+715.5 1060.3 lineto
+715.5 1030.3 lineto
+849.5 1030.3 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 849.5 1060.3 moveto
+715.5 1060.3 lineto
+715.5 1030.3 lineto
+849.5 1030.3 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+774 1048.3 moveto 17 (cat1) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+723.5 1037.3 moveto 118 ([\(#Pcat2==0\)&&\(#Pcaf2==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@3c679bde->jspetrinet.petri.ImmTrans@8807e25
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 782.5 1096.66 moveto
+782.5 1088.4 782.5 1078.92 782.5 1070.43 curveto
+stroke
+0 0 0 edgecolor
+newpath 786 1070.37 moveto
+782.5 1060.37 lineto
+779 1070.37 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 786 1070.37 moveto
+782.5 1060.37 lineto
+779 1070.37 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@2a098129
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+782.5 971.34 22.24 22.24 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+771.5 968.84 moveto 22 (Pcat2) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@8807e25->jspetrinet.petri.Place@2a098129
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 782.5 1030.08 moveto
+782.5 1022.58 782.5 1013.06 782.5 1003.92 curveto
+stroke
+0 0 0 edgecolor
+newpath 786 1003.9 moveto
+782.5 993.9 lineto
+779 1003.9 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 786 1003.9 moveto
+782.5 993.9 lineto
+779 1003.9 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@12f40c25
+gsave
+0 0 0.82745 nodecolor
+newpath 849.5 912.38 moveto
+715.5 912.38 lineto
+715.5 882.38 lineto
+849.5 882.38 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 849.5 912.38 moveto
+715.5 912.38 lineto
+715.5 882.38 lineto
+849.5 882.38 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+774 900.38 moveto 17 (cat2) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+723.5 889.38 moveto 118 ([\(#Pcat3==0\)&&\(#Pcaf3==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@2a098129->jspetrinet.petri.ImmTrans@12f40c25
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 782.5 948.75 moveto
+782.5 940.48 782.5 931 782.5 922.51 curveto
+stroke
+0 0 0 edgecolor
+newpath 786 922.46 moveto
+782.5 912.46 lineto
+779 922.46 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 786 922.46 moveto
+782.5 912.46 lineto
+779 922.46 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@5cbc508c
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+782.5 823.42 22.24 22.24 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+771.5 820.92 moveto 22 (Pcat3) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@12f40c25->jspetrinet.petri.Place@5cbc508c
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 782.5 882.16 moveto
+782.5 874.67 782.5 865.15 782.5 856.01 curveto
+stroke
+0 0 0 edgecolor
+newpath 786 855.99 moveto
+782.5 845.99 lineto
+779 855.99 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 786 855.99 moveto
+782.5 845.99 lineto
+779 855.99 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@63e31ee
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 646 764.47 moveto
+409 764.47 lineto
+409 734.47 lineto
+646 734.47 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+525 752.47 moveto 5 (c) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+417 741.47 moveto 221 ([\(#Pd1==0\)&&\(#Pe1==0\)&&\(#Pdf1==0\)&&\(#Pef1==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@5cbc508c->jspetrinet.petri.ExpTrans@63e31ee
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 761.2 816.41 moveto
+723.31 805.72 642.97 783.05 587.13 767.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 587.93 763.88 moveto
+577.35 764.53 lineto
+586.02 770.62 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 587.93 763.88 moveto
+577.35 764.53 lineto
+586.02 770.62 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@5479e3f
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 1411 764.47 moveto
+1174 764.47 lineto
+1174 734.47 lineto
+1411 734.47 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1286 752.47 moveto 13 (cf3) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1182 741.47 moveto 221 ([\(#Pd1==0\)&&\(#Pe1==0\)&&\(#Pdf1==0\)&&\(#Pef1==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@5cbc508c->jspetrinet.petri.ExpTrans@5479e3f
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 803.56 815.31 moveto
+818.69 810.46 839.65 804.25 858.5 800.47 curveto
+873.46 797.46 1041.21 778.47 1163.68 764.78 curveto
+stroke
+0 0 0 edgecolor
+newpath 1164.35 768.22 moveto
+1173.9 763.64 lineto
+1163.57 761.27 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1164.35 768.22 moveto
+1173.9 763.64 lineto
+1163.57 761.27 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@24273305
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 901 764.47 moveto
+664 764.47 lineto
+664 734.47 lineto
+901 734.47 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+776 752.47 moveto 13 (cf1) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+672 741.47 moveto 221 ([\(#Pd1==0\)&&\(#Pe1==0\)&&\(#Pdf1==0\)&&\(#Pef1==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@5cbc508c->jspetrinet.petri.ExpTrans@24273305
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 782.5 800.83 moveto
+782.5 792.57 782.5 783.09 782.5 774.6 curveto
+stroke
+0 0 0 edgecolor
+newpath 786 774.54 moveto
+782.5 764.54 lineto
+779 774.54 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 786 774.54 moveto
+782.5 764.54 lineto
+779 774.54 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@5474c6c
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+455.5 677.86 18.68 18.68 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+447.5 675.36 moveto 16 (Pd1) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@63e31ee->jspetrinet.petri.Place@5474c6c
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 512.93 734.38 moveto
+502.28 724.08 487.69 709.98 475.88 698.57 curveto
+stroke
+0 0 0 edgecolor
+newpath 478.22 695.96 moveto
+468.6 691.52 lineto
+473.35 700.99 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 478.22 695.96 moveto
+468.6 691.52 lineto
+473.35 700.99 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@1888ff2c
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+546.5 677.86 18.5 18.5 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+539 675.36 moveto 15 (Pe1) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@63e31ee->jspetrinet.petri.Place@1888ff2c
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 531.34 734.38 moveto
+533.61 726.07 536.56 715.27 539.25 705.41 curveto
+stroke
+0 0 0 edgecolor
+newpath 542.67 706.19 moveto
+541.92 695.63 lineto
+535.91 704.35 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 542.67 706.19 moveto
+541.92 695.63 lineto
+535.91 704.35 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@567d299b
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+890.5 823.42 22.92 22.92 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+879 820.92 moveto 23 (Pcbt3) alignedtext
+grestore
+% jspetrinet.petri.Place@567d299b->jspetrinet.petri.ExpTrans@63e31ee
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 868.75 815.56 moveto
+853.42 810.89 832.33 804.78 813.5 800.47 curveto
+753.95 786.81 686.68 774.88 632.35 766.1 curveto
+stroke
+0 0 0 edgecolor
+newpath 632.78 762.62 moveto
+622.36 764.49 lineto
+631.68 769.53 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 632.78 762.62 moveto
+622.36 764.49 lineto
+631.68 769.53 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@567d299b->jspetrinet.petri.ExpTrans@24273305
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 871.69 809.89 moveto
+855.23 798.92 831.05 782.81 812.02 770.13 curveto
+stroke
+0 0 0 edgecolor
+newpath 813.95 767.21 moveto
+803.68 764.58 lineto
+810.07 773.04 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 813.95 767.21 moveto
+803.68 764.58 lineto
+810.07 773.04 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@5a42bbf4
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 1156 764.47 moveto
+919 764.47 lineto
+919 734.47 lineto
+1156 734.47 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1031 752.47 moveto 13 (cf2) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+927 741.47 moveto 221 ([\(#Pd1==0\)&&\(#Pe1==0\)&&\(#Pdf1==0\)&&\(#Pef1==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@567d299b->jspetrinet.petri.ExpTrans@5a42bbf4
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 910.94 812.42 moveto
+933.76 801.25 971.2 782.92 999.45 769.09 curveto
+stroke
+0 0 0 edgecolor
+newpath 1001.2 772.13 moveto
+1008.64 764.59 lineto
+998.12 765.84 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1001.2 772.13 moveto
+1008.64 764.59 lineto
+998.12 765.84 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@59690aa4
+gsave
+0 0 0.82745 nodecolor
+newpath 1003 912.38 moveto
+868 912.38 lineto
+868 882.38 lineto
+1003 882.38 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 1003 912.38 moveto
+868 912.38 lineto
+868 882.38 lineto
+1003 882.38 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+926.5 900.38 moveto 18 (cbt2) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+876 889.38 moveto 119 ([\(#Pcbt3==0\)&&\(#Pcbf3==0\)]) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@59690aa4->jspetrinet.petri.Place@567d299b
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 926.61 882.16 moveto
+921.22 873.55 914.16 862.26 907.72 851.96 curveto
+stroke
+0 0 0 edgecolor
+newpath 910.54 849.87 moveto
+902.27 843.25 lineto
+904.61 853.58 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 910.54 849.87 moveto
+902.27 843.25 lineto
+904.61 853.58 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@574caa3f
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+935.5 971.34 22.92 22.92 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+924 968.84 moveto 23 (Pcbt2) alignedtext
+grestore
+% jspetrinet.petri.Place@574caa3f->jspetrinet.petri.ImmTrans@59690aa4
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 935.5 948.36 moveto
+935.5 940.31 935.5 931.16 935.5 922.9 curveto
+stroke
+0 0 0 edgecolor
+newpath 939 922.74 moveto
+935.5 912.74 lineto
+932 922.74 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 939 922.74 moveto
+935.5 912.74 lineto
+932 922.74 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@1761e840
+gsave
+0 0 0.82745 nodecolor
+newpath 1003 1060.3 moveto
+868 1060.3 lineto
+868 1030.3 lineto
+1003 1030.3 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 1003 1060.3 moveto
+868 1060.3 lineto
+868 1030.3 lineto
+1003 1030.3 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+926.5 1048.3 moveto 18 (cbt1) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+876 1037.3 moveto 119 ([\(#Pcbt2==0\)&&\(#Pcbf2==0\)]) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@1761e840->jspetrinet.petri.Place@574caa3f
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 935.5 1030.08 moveto
+935.5 1022.78 935.5 1013.56 935.5 1004.65 curveto
+stroke
+0 0 0 edgecolor
+newpath 939 1004.46 moveto
+935.5 994.46 lineto
+932 1004.46 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 939 1004.46 moveto
+935.5 994.46 lineto
+932 1004.46 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@5ecddf8f
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+935.5 1119.25 22.92 22.92 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+924 1116.75 moveto 23 (Pcbt1) alignedtext
+grestore
+% jspetrinet.petri.Place@5ecddf8f->jspetrinet.petri.ImmTrans@1761e840
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 935.5 1096.27 moveto
+935.5 1088.23 935.5 1079.07 935.5 1070.82 curveto
+stroke
+0 0 0 edgecolor
+newpath 939 1070.65 moveto
+935.5 1060.65 lineto
+932 1070.65 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 939 1070.65 moveto
+935.5 1060.65 lineto
+932 1070.65 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@27abe2cd
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 1003 1208.21 moveto
+868 1208.21 lineto
+868 1178.21 lineto
+1003 1178.21 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+930.5 1196.21 moveto 10 (cb) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+876 1185.21 moveto 119 ([\(#Pcbt1==0\)&&\(#Pcbf1==0\)]) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@27abe2cd->jspetrinet.petri.Place@5ecddf8f
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 935.5 1178 moveto
+935.5 1170.69 935.5 1161.48 935.5 1152.57 curveto
+stroke
+0 0 0 edgecolor
+newpath 939 1152.38 moveto
+935.5 1142.38 lineto
+932 1152.38 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 939 1152.38 moveto
+935.5 1142.38 lineto
+932 1152.38 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@6fdb1f78
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1113.5 1262.21 18 18 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1108 1259.71 moveto 11 (Pb) alignedtext
+grestore
+% jspetrinet.petri.Place@6fdb1f78->jspetrinet.petri.ExpTrans@27abe2cd
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1096.75 1254.91 moveto
+1070.86 1245.16 1020.14 1226.07 982.47 1211.89 curveto
+stroke
+0 0 0 edgecolor
+newpath 983.3 1208.47 moveto
+972.71 1208.22 lineto
+980.84 1215.02 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 983.3 1208.47 moveto
+972.71 1208.22 lineto
+980.84 1215.02 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@1517365b
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 1317 1208.21 moveto
+1176 1208.21 lineto
+1176 1178.21 lineto
+1317 1178.21 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1235.5 1196.21 moveto 22 (cbfail) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1184 1185.21 moveto 125 ([\(\(#Pcbt1==0\)&&\(#Pcbf1==0\)\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@6fdb1f78->jspetrinet.petri.ExpTrans@1517365b
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1129.28 1253.26 moveto
+1148.98 1243.34 1183.29 1226.06 1209.72 1212.74 curveto
+stroke
+0 0 0 edgecolor
+newpath 1211.34 1215.84 moveto
+1218.7 1208.22 lineto
+1208.19 1209.59 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1211.34 1215.84 moveto
+1218.7 1208.22 lineto
+1208.19 1209.59 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@29444d75
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 1142.5 1346.21 moveto
+1084.5 1346.21 lineto
+1084.5 1316.21 lineto
+1142.5 1316.21 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1110.5 1334.21 moveto 6 (b) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1097.5 1323.21 moveto 32 ([#Pb<2]) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@29444d75->jspetrinet.petri.Place@6fdb1f78
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1113.5 1316 moveto
+1113.5 1308.58 1113.5 1299.23 1113.5 1290.47 curveto
+stroke
+0 0 0 edgecolor
+newpath 1117 1290.25 moveto
+1113.5 1280.25 lineto
+1110 1290.25 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1117 1290.25 moveto
+1113.5 1280.25 lineto
+1110 1290.25 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@44e81672
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1258.5 1119.25 22.92 22.92 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1247 1116.75 moveto 23 (Pcbf1) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@1517365b->jspetrinet.petri.Place@44e81672
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1248.87 1178 moveto
+1250.11 1170.56 1251.68 1161.13 1253.2 1152.06 curveto
+stroke
+0 0 0 edgecolor
+newpath 1256.66 1152.54 moveto
+1254.86 1142.1 lineto
+1249.76 1151.38 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1256.66 1152.54 moveto
+1254.86 1142.1 lineto
+1249.76 1151.38 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@4ca8195f
+gsave
+0 0 0.82745 nodecolor
+newpath 1350 1060.3 moveto
+1215 1060.3 lineto
+1215 1030.3 lineto
+1350 1030.3 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 1350 1060.3 moveto
+1215 1060.3 lineto
+1215 1030.3 lineto
+1350 1030.3 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1273.5 1048.3 moveto 18 (cbf1) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1223 1037.3 moveto 119 ([\(#Pcbt2==0\)&&\(#Pcbf2==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@44e81672->jspetrinet.petri.ImmTrans@4ca8195f
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1265.57 1097.05 moveto
+1268.39 1088.59 1271.66 1078.81 1274.56 1070.1 curveto
+stroke
+0 0 0 edgecolor
+newpath 1277.91 1071.12 moveto
+1277.75 1060.52 lineto
+1271.27 1068.9 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1277.91 1071.12 moveto
+1277.75 1060.52 lineto
+1271.27 1068.9 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@61baa894
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1285.5 971.34 22.92 22.92 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1274 968.84 moveto 23 (Pcbf2) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@4ca8195f->jspetrinet.petri.Place@61baa894
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1283.09 1030.08 moveto
+1283.4 1022.78 1283.78 1013.56 1284.15 1004.65 curveto
+stroke
+0 0 0 edgecolor
+newpath 1287.66 1004.6 moveto
+1284.58 994.46 lineto
+1280.66 1004.31 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1287.66 1004.6 moveto
+1284.58 994.46 lineto
+1280.66 1004.31 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@768debd
+gsave
+0 0 0.82745 nodecolor
+newpath 1359 912.38 moveto
+1224 912.38 lineto
+1224 882.38 lineto
+1359 882.38 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 1359 912.38 moveto
+1224 912.38 lineto
+1224 882.38 lineto
+1359 882.38 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1282.5 900.38 moveto 18 (cbf2) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1232 889.38 moveto 119 ([\(#Pcbt3==0\)&&\(#Pcbf3==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@61baa894->jspetrinet.petri.ImmTrans@768debd
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1287.33 948.36 moveto
+1288 940.31 1288.77 931.16 1289.46 922.9 curveto
+stroke
+0 0 0 edgecolor
+newpath 1292.96 922.99 moveto
+1290.3 912.74 lineto
+1285.98 922.41 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1292.96 922.99 moveto
+1290.3 912.74 lineto
+1285.98 922.41 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@7d4793a8
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1292.5 823.42 22.92 22.92 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1281 820.92 moveto 23 (Pcbf3) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@768debd->jspetrinet.petri.Place@7d4793a8
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1291.7 882.16 moveto
+1291.8 874.86 1291.93 865.65 1292.05 856.74 curveto
+stroke
+0 0 0 edgecolor
+newpath 1295.55 856.59 moveto
+1292.19 846.54 lineto
+1288.55 856.5 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1295.55 856.59 moveto
+1292.19 846.54 lineto
+1288.55 856.5 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@7d4793a8->jspetrinet.petri.ExpTrans@5479e3f
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1292.5 800.44 moveto
+1292.5 792.4 1292.5 783.24 1292.5 774.99 curveto
+stroke
+0 0 0 edgecolor
+newpath 1296 774.82 moveto
+1292.5 764.82 lineto
+1289 774.82 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1296 774.82 moveto
+1292.5 764.82 lineto
+1289 774.82 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@67117f44
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 1666 764.47 moveto
+1429 764.47 lineto
+1429 734.47 lineto
+1666 734.47 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1541 752.47 moveto 13 (cf4) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1437 741.47 moveto 221 ([\(#Pd1==0\)&&\(#Pe1==0\)&&\(#Pdf1==0\)&&\(#Pef1==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@7d4793a8->jspetrinet.petri.ExpTrans@67117f44
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1314.68 816.16 moveto
+1352.98 805.36 1432.7 782.86 1488.11 767.22 curveto
+stroke
+0 0 0 edgecolor
+newpath 1489.15 770.57 moveto
+1497.82 764.48 lineto
+1487.24 763.83 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1489.15 770.57 moveto
+1497.82 764.48 lineto
+1487.24 763.83 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@7bfcd12c
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1272.5 677.86 20.71 20.71 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1263 675.36 moveto 19 (Pdf1) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@5479e3f->jspetrinet.petri.Place@7bfcd12c
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1288.45 734.38 moveto
+1286.24 726.68 1283.42 716.85 1280.76 707.61 curveto
+stroke
+0 0 0 edgecolor
+newpath 1284.11 706.58 moveto
+1277.98 697.94 lineto
+1277.38 708.52 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1284.11 706.58 moveto
+1277.98 697.94 lineto
+1277.38 708.52 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@18e8568
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1056.5 677.86 20.03 20.03 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1047.5 675.36 moveto 18 (Pef1) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@5479e3f->jspetrinet.petri.Place@18e8568
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1245.03 734.46 moveto
+1197.21 720.36 1124.98 699.06 1085.24 687.34 curveto
+stroke
+0 0 0 edgecolor
+newpath 1085.99 683.91 moveto
+1075.41 684.44 lineto
+1084.01 690.62 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1085.99 683.91 moveto
+1075.41 684.44 lineto
+1084.01 690.62 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@7a92922
+gsave
+0 0 0.82745 nodecolor
+newpath 1336.5 621.26 moveto
+1208.5 621.26 lineto
+1208.5 591.26 lineto
+1336.5 591.26 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 1336.5 621.26 moveto
+1208.5 621.26 lineto
+1208.5 591.26 lineto
+1336.5 591.26 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1267.5 609.26 moveto 10 (d1) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1216.5 598.26 moveto 112 ([\(#Pd2==0\)&&\(#Pdf12==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@7bfcd12c->jspetrinet.petri.ImmTrans@7a92922
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1272.5 657.1 moveto
+1272.5 649.17 1272.5 639.94 1272.5 631.59 curveto
+stroke
+0 0 0 edgecolor
+newpath 1276 631.32 moveto
+1272.5 621.32 lineto
+1269 631.32 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1276 631.32 moveto
+1272.5 621.32 lineto
+1269 631.32 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@24273305->jspetrinet.petri.Place@7bfcd12c
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 881.07 734.46 moveto
+993.51 718.49 1170.95 693.29 1241.8 683.22 curveto
+stroke
+0 0 0 edgecolor
+newpath 1242.44 686.67 moveto
+1251.85 681.8 lineto
+1241.45 679.74 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1242.44 686.67 moveto
+1251.85 681.8 lineto
+1241.45 679.74 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@24273305->jspetrinet.petri.Place@18e8568
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 837.62 734.46 moveto
+894.89 719.92 982.3 697.71 1027.38 686.26 curveto
+stroke
+0 0 0 edgecolor
+newpath 1028.27 689.64 moveto
+1037.1 683.79 lineto
+1026.55 682.86 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1028.27 689.64 moveto
+1037.1 683.79 lineto
+1026.55 682.86 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@d70c109
+gsave
+0 0 0.82745 nodecolor
+newpath 1119.5 621.26 moveto
+993.5 621.26 lineto
+993.5 591.26 lineto
+1119.5 591.26 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 1119.5 621.26 moveto
+993.5 621.26 lineto
+993.5 591.26 lineto
+1119.5 591.26 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1051.5 609.26 moveto 10 (e1) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1001.5 598.26 moveto 110 ([\(#Pe2==0\)&&\(#Pef12==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@18e8568->jspetrinet.petri.ImmTrans@d70c109
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1056.5 657.84 moveto
+1056.5 649.81 1056.5 640.34 1056.5 631.79 curveto
+stroke
+0 0 0 edgecolor
+newpath 1060 631.62 moveto
+1056.5 621.62 lineto
+1053 631.62 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1060 631.62 moveto
+1056.5 621.62 lineto
+1053 631.62 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@5a42bbf4->jspetrinet.petri.Place@7bfcd12c
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1084.77 734.46 moveto
+1132.12 720.44 1203.5 699.3 1243.2 687.54 curveto
+stroke
+0 0 0 edgecolor
+newpath 1244.22 690.89 moveto
+1252.82 684.69 lineto
+1242.24 684.18 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1244.22 690.89 moveto
+1252.82 684.69 lineto
+1242.24 684.18 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@5a42bbf4->jspetrinet.petri.Place@18e8568
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1041.34 734.38 moveto
+1043.48 726.56 1046.21 716.55 1048.77 707.19 curveto
+stroke
+0 0 0 edgecolor
+newpath 1052.18 707.99 moveto
+1051.43 697.42 lineto
+1045.42 706.14 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1052.18 707.99 moveto
+1051.43 697.42 lineto
+1045.42 706.14 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@52d455b8
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1088.5 823.42 22.24 22.24 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1077.5 820.92 moveto 22 (Pcaf3) alignedtext
+grestore
+% jspetrinet.petri.Place@52d455b8->jspetrinet.petri.ExpTrans@5a42bbf4
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1075.89 804.64 moveto
+1069.14 795.11 1060.75 783.27 1053.54 773.09 curveto
+stroke
+0 0 0 edgecolor
+newpath 1056.21 770.81 moveto
+1047.57 764.68 lineto
+1050.5 774.86 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1056.21 770.81 moveto
+1047.57 764.68 lineto
+1050.5 774.86 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@52d455b8->jspetrinet.petri.ExpTrans@67117f44
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1110.64 818.95 moveto
+1170.55 809.56 1338.69 783.2 1448.04 766.06 curveto
+stroke
+0 0 0 edgecolor
+newpath 1448.77 769.49 moveto
+1458.11 764.48 lineto
+1447.69 762.57 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1448.77 769.49 moveto
+1458.11 764.48 lineto
+1447.69 762.57 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@18ef96
+gsave
+0 0 0.82745 nodecolor
+newpath 1155.5 912.38 moveto
+1021.5 912.38 lineto
+1021.5 882.38 lineto
+1155.5 882.38 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 1155.5 912.38 moveto
+1021.5 912.38 lineto
+1021.5 882.38 lineto
+1155.5 882.38 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1080 900.38 moveto 17 (caf2) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1029.5 889.38 moveto 118 ([\(#Pcat3==0\)&&\(#Pcaf3==0\)]) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@18ef96->jspetrinet.petri.Place@52d455b8
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1088.5 882.16 moveto
+1088.5 874.67 1088.5 865.15 1088.5 856.01 curveto
+stroke
+0 0 0 edgecolor
+newpath 1092 855.99 moveto
+1088.5 845.99 lineto
+1085 855.99 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1092 855.99 moveto
+1088.5 845.99 lineto
+1085 855.99 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@769c9116
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1088.5 971.34 22.24 22.24 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1077.5 968.84 moveto 22 (Pcaf2) alignedtext
+grestore
+% jspetrinet.petri.Place@769c9116->jspetrinet.petri.ImmTrans@18ef96
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1088.5 948.75 moveto
+1088.5 940.48 1088.5 931 1088.5 922.51 curveto
+stroke
+0 0 0 edgecolor
+newpath 1092 922.46 moveto
+1088.5 912.46 lineto
+1085 922.46 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1092 922.46 moveto
+1088.5 912.46 lineto
+1085 922.46 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@2d6d8735
+gsave
+0 0 0.82745 nodecolor
+newpath 1155.5 1060.3 moveto
+1021.5 1060.3 lineto
+1021.5 1030.3 lineto
+1155.5 1030.3 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 1155.5 1060.3 moveto
+1021.5 1060.3 lineto
+1021.5 1030.3 lineto
+1155.5 1030.3 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1080 1048.3 moveto 17 (caf1) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1029.5 1037.3 moveto 118 ([\(#Pcat2==0\)&&\(#Pcaf2==0\)]) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@2d6d8735->jspetrinet.petri.Place@769c9116
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1088.5 1030.08 moveto
+1088.5 1022.58 1088.5 1013.06 1088.5 1003.92 curveto
+stroke
+0 0 0 edgecolor
+newpath 1092 1003.9 moveto
+1088.5 993.9 lineto
+1085 1003.9 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1092 1003.9 moveto
+1088.5 993.9 lineto
+1085 1003.9 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@12bc6874
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1088.5 1119.25 22.24 22.24 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1077.5 1116.75 moveto 22 (Pcaf1) alignedtext
+grestore
+% jspetrinet.petri.Place@12bc6874->jspetrinet.petri.ImmTrans@2d6d8735
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1088.5 1096.66 moveto
+1088.5 1088.4 1088.5 1078.92 1088.5 1070.43 curveto
+stroke
+0 0 0 edgecolor
+newpath 1092 1070.37 moveto
+1088.5 1060.37 lineto
+1085 1070.37 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1092 1070.37 moveto
+1088.5 1060.37 lineto
+1085 1070.37 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@4c75cab9->jspetrinet.petri.Place@12bc6874
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1088.5 1178 moveto
+1088.5 1170.5 1088.5 1160.98 1088.5 1151.84 curveto
+stroke
+0 0 0 edgecolor
+newpath 1092 1151.82 moveto
+1088.5 1141.82 lineto
+1085 1151.82 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1092 1151.82 moveto
+1088.5 1141.82 lineto
+1085 1151.82 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@67117f44->jspetrinet.petri.Place@7bfcd12c
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1492.18 734.46 moveto
+1434.85 719.95 1347.41 697.82 1302.07 686.35 curveto
+stroke
+0 0 0 edgecolor
+newpath 1302.83 682.93 moveto
+1292.28 683.87 lineto
+1301.12 689.72 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1302.83 682.93 moveto
+1292.28 683.87 lineto
+1301.12 689.72 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@67117f44->jspetrinet.petri.Place@18e8568
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1448.73 734.46 moveto
+1335.52 718.42 1156.57 693.05 1086.26 683.08 curveto
+stroke
+0 0 0 edgecolor
+newpath 1086.71 679.61 moveto
+1076.32 681.67 lineto
+1085.73 686.54 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1086.71 679.61 moveto
+1076.32 681.67 lineto
+1085.73 686.54 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@50675690
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1056.5 532.3 22.24 22.24 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1045.5 529.8 moveto 22 (Pef12) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@d70c109->jspetrinet.petri.Place@50675690
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1056.5 591.04 moveto
+1056.5 583.54 1056.5 574.02 1056.5 564.89 curveto
+stroke
+0 0 0 edgecolor
+newpath 1060 564.86 moveto
+1056.5 554.86 lineto
+1053 564.86 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1060 564.86 moveto
+1056.5 554.86 lineto
+1053 564.86 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@3ac42916
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 1155 473.34 moveto
+958 473.34 lineto
+958 443.34 lineto
+1155 443.34 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1050 461.34 moveto 13 (ef1) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+966 450.34 moveto 181 ([\(#Pfef1==0\)&&\(#Pfet1==0\)&&\(#Pfef11==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@50675690->jspetrinet.petri.ExpTrans@3ac42916
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1056.5 509.71 moveto
+1056.5 501.44 1056.5 491.96 1056.5 483.48 curveto
+stroke
+0 0 0 edgecolor
+newpath 1060 483.42 moveto
+1056.5 473.42 lineto
+1053 483.42 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1060 483.42 moveto
+1056.5 473.42 lineto
+1053 483.42 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@2d6a9952
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1056.5 382.62 24.27 24.27 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1044 380.12 moveto 25 (Pfef11) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@3ac42916->jspetrinet.petri.Place@2d6a9952
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1056.5 443.13 moveto
+1056.5 435.65 1056.5 426.14 1056.5 416.93 curveto
+stroke
+0 0 0 edgecolor
+newpath 1060 416.78 moveto
+1056.5 406.78 lineto
+1053 416.78 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1060 416.78 moveto
+1056.5 406.78 lineto
+1053 416.78 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@3930015a
+gsave
+0 0 0.82745 nodecolor
+newpath 1155 321.9 moveto
+958 321.9 lineto
+958 291.9 lineto
+1155 291.9 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 1155 321.9 moveto
+958 321.9 lineto
+958 291.9 lineto
+1155 291.9 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1046.5 309.9 moveto 20 (fef11) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+966 298.9 moveto 181 ([\(#Pfef2==0\)&&\(#Pfet2==0\)&&\(#Pfef12==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@2d6a9952->jspetrinet.petri.ImmTrans@3930015a
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1056.5 358.29 moveto
+1056.5 350.08 1056.5 340.83 1056.5 332.51 curveto
+stroke
+0 0 0 edgecolor
+newpath 1060 332.29 moveto
+1056.5 322.29 lineto
+1053 332.29 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1060 332.29 moveto
+1056.5 322.29 lineto
+1053 332.29 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@1bc6a36e
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1056.5 231.17 24.27 24.27 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1044 228.67 moveto 25 (Pfef12) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@3930015a->jspetrinet.petri.Place@1bc6a36e
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1056.5 291.68 moveto
+1056.5 284.2 1056.5 274.69 1056.5 265.48 curveto
+stroke
+0 0 0 edgecolor
+newpath 1060 265.33 moveto
+1056.5 255.33 lineto
+1053 265.33 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1060 265.33 moveto
+1056.5 255.33 lineto
+1053 265.33 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@387c703b
+gsave
+0 0 0.82745 nodecolor
+newpath 1155 170.45 moveto
+958 170.45 lineto
+958 140.45 lineto
+1155 140.45 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 1155 170.45 moveto
+958 170.45 lineto
+958 140.45 lineto
+1155 140.45 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1046.5 158.45 moveto 20 (fef12) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+966 147.45 moveto 181 ([\(#Pfef3==0\)&&\(#Pfet3==0\)&&\(#Pfef13==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@1bc6a36e->jspetrinet.petri.ImmTrans@387c703b
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1056.5 206.84 moveto
+1056.5 198.63 1056.5 189.38 1056.5 181.06 curveto
+stroke
+0 0 0 edgecolor
+newpath 1060 180.84 moveto
+1056.5 170.84 lineto
+1053 180.84 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1060 180.84 moveto
+1056.5 170.84 lineto
+1053 180.84 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@c39f790
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1093.5 79.72 24.27 24.27 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1081 77.22 moveto 25 (Pfef13) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@387c703b->jspetrinet.petri.Place@c39f790
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1063.63 140.23 moveto
+1067.85 131.84 1073.34 120.89 1078.47 110.67 curveto
+stroke
+0 0 0 edgecolor
+newpath 1081.67 112.1 moveto
+1083.03 101.59 lineto
+1075.41 108.96 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1081.67 112.1 moveto
+1083.03 101.59 lineto
+1075.41 108.96 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@2ac1fdc4
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 1155.5 19 moveto
+1097.5 19 lineto
+1097.5 0 lineto
+1155.5 0 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1121 7 moveto 11 (ff1) alignedtext
+grestore
+% jspetrinet.petri.Place@c39f790->jspetrinet.petri.ExpTrans@2ac1fdc4
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1103.76 57.51 moveto
+1108.32 48.08 1113.64 37.1 1117.98 28.12 curveto
+stroke
+0 0 0 edgecolor
+newpath 1121.17 29.56 moveto
+1122.37 19.03 lineto
+1114.87 26.51 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1121.17 29.56 moveto
+1122.37 19.03 lineto
+1114.87 26.51 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@1c53fd30
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1234.5 79.72 24.95 24.95 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1221.5 77.22 moveto 26 (Pfdf13) alignedtext
+grestore
+% jspetrinet.petri.Place@1c53fd30->jspetrinet.petri.ExpTrans@2ac1fdc4
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1213.93 65.73 moveto
+1195.31 53.97 1167.95 36.69 1148.81 24.59 curveto
+stroke
+0 0 0 edgecolor
+newpath 1150.47 21.5 moveto
+1140.15 19.12 lineto
+1146.74 27.42 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1150.47 21.5 moveto
+1140.15 19.12 lineto
+1146.74 27.42 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@75412c2f
+gsave
+0 0 0.82745 nodecolor
+newpath 1372 170.45 moveto
+1173 170.45 lineto
+1173 140.45 lineto
+1372 140.45 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 1372 170.45 moveto
+1173 170.45 lineto
+1173 140.45 lineto
+1372 140.45 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1262 158.45 moveto 21 (fdf12) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1181 147.45 moveto 183 ([\(#Pfdf3==0\)&&\(#Pfdt3==0\)&&\(#Pfdf13==0\)]) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@75412c2f->jspetrinet.petri.Place@1c53fd30
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1265.17 140.23 moveto
+1260.91 131.97 1255.37 121.22 1250.18 111.14 curveto
+stroke
+0 0 0 edgecolor
+newpath 1253.24 109.44 moveto
+1245.55 102.16 lineto
+1247.02 112.65 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1253.24 109.44 moveto
+1245.55 102.16 lineto
+1247.02 112.65 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@13b6d03
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1272.5 231.17 24.95 24.95 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1259.5 228.67 moveto 26 (Pfdf12) alignedtext
+grestore
+% jspetrinet.petri.Place@13b6d03->jspetrinet.petri.ImmTrans@75412c2f
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1272.5 206.44 moveto
+1272.5 198.24 1272.5 189.05 1272.5 180.81 curveto
+stroke
+0 0 0 edgecolor
+newpath 1276 180.68 moveto
+1272.5 170.68 lineto
+1269 180.68 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1276 180.68 moveto
+1272.5 170.68 lineto
+1269 180.68 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@73035e27
+gsave
+0 0 0.82745 nodecolor
+newpath 1372 321.9 moveto
+1173 321.9 lineto
+1173 291.9 lineto
+1372 291.9 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 1372 321.9 moveto
+1173 321.9 lineto
+1173 291.9 lineto
+1372 291.9 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1262 309.9 moveto 21 (fdf11) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1181 298.9 moveto 183 ([\(#Pfdf2==0\)&&\(#Pfdt2==0\)&&\(#Pfdf12==0\)]) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@73035e27->jspetrinet.petri.Place@13b6d03
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1272.5 291.68 moveto
+1272.5 284.32 1272.5 275 1272.5 265.93 curveto
+stroke
+0 0 0 edgecolor
+newpath 1276 265.92 moveto
+1272.5 255.92 lineto
+1269 265.92 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1276 265.92 moveto
+1272.5 255.92 lineto
+1269 265.92 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@3ecf72fd
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1272.5 382.62 24.95 24.95 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1259.5 380.12 moveto 26 (Pfdf11) alignedtext
+grestore
+% jspetrinet.petri.Place@3ecf72fd->jspetrinet.petri.ImmTrans@73035e27
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1272.5 357.89 moveto
+1272.5 349.69 1272.5 340.5 1272.5 332.26 curveto
+stroke
+0 0 0 edgecolor
+newpath 1276 332.13 moveto
+1272.5 322.13 lineto
+1269 332.13 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1276 332.13 moveto
+1272.5 322.13 lineto
+1269 332.13 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@21a06946
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 1372 473.34 moveto
+1173 473.34 lineto
+1173 443.34 lineto
+1372 443.34 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1266 461.34 moveto 13 (df1) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1181 450.34 moveto 183 ([\(#Pfdf1==0\)&&\(#Pfdt1==0\)&&\(#Pfdf11==0\)]) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@21a06946->jspetrinet.petri.Place@3ecf72fd
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1272.5 443.13 moveto
+1272.5 435.77 1272.5 426.45 1272.5 417.38 curveto
+stroke
+0 0 0 edgecolor
+newpath 1276 417.36 moveto
+1272.5 407.36 lineto
+1269 417.36 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1276 417.36 moveto
+1272.5 407.36 lineto
+1269 417.36 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@326de728
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1272.5 532.3 22.92 22.92 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+1261 529.8 moveto 23 (Pdf12) alignedtext
+grestore
+% jspetrinet.petri.Place@326de728->jspetrinet.petri.ExpTrans@21a06946
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1272.5 509.32 moveto
+1272.5 501.27 1272.5 492.12 1272.5 483.87 curveto
+stroke
+0 0 0 edgecolor
+newpath 1276 483.7 moveto
+1272.5 473.7 lineto
+1269 483.7 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1276 483.7 moveto
+1272.5 473.7 lineto
+1269 483.7 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@7a92922->jspetrinet.petri.Place@326de728
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1272.5 591.04 moveto
+1272.5 583.74 1272.5 574.53 1272.5 565.61 curveto
+stroke
+0 0 0 edgecolor
+newpath 1276 565.42 moveto
+1272.5 555.42 lineto
+1269 565.42 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1276 565.42 moveto
+1272.5 555.42 lineto
+1269 565.42 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@2fc14f68
+gsave
+0 0 0.82745 nodecolor
+newpath 501.5 621.26 moveto
+373.5 621.26 lineto
+373.5 591.26 lineto
+501.5 591.26 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 501.5 621.26 moveto
+373.5 621.26 lineto
+373.5 591.26 lineto
+501.5 591.26 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+434.5 609.26 moveto 6 (d) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+381.5 598.26 moveto 112 ([\(#Pd2==0\)&&\(#Pdf12==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@5474c6c->jspetrinet.petri.ImmTrans@2fc14f68
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 450.96 659.3 moveto
+448.75 650.75 446.06 640.36 443.67 631.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 447.03 630.12 moveto
+441.13 621.31 lineto
+440.25 631.87 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 447.03 630.12 moveto
+441.13 621.31 lineto
+440.25 631.87 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@66048bfd
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+437.5 532.3 18.68 18.68 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+429.5 529.8 moveto 16 (Pd2) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@2fc14f68->jspetrinet.petri.Place@66048bfd
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 437.5 591.04 moveto
+437.5 582.59 437.5 571.57 437.5 561.43 curveto
+stroke
+0 0 0 edgecolor
+newpath 441 561.32 moveto
+437.5 551.32 lineto
+434 561.32 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 441 561.32 moveto
+437.5 551.32 lineto
+434 561.32 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@445b84c0
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 631 473.34 moveto
+432 473.34 lineto
+432 443.34 lineto
+631 443.34 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+527 461.34 moveto 9 (dt) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+440 450.34 moveto 183 ([\(#Pfdf1==0\)&&\(#Pfdt1==0\)&&\(#Pfdf11==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@66048bfd->jspetrinet.petri.ExpTrans@445b84c0
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 452.19 520.06 moveto
+466.3 509.26 487.94 492.69 505.06 479.59 curveto
+stroke
+0 0 0 edgecolor
+newpath 507.23 482.33 moveto
+513.04 473.47 lineto
+502.97 476.77 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 507.23 482.33 moveto
+513.04 473.47 lineto
+502.97 476.77 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@7e0babb1
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 199 473.34 moveto
+0 473.34 lineto
+0 443.34 lineto
+199 443.34 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+95 461.34 moveto 9 (df) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+8 450.34 moveto 183 ([\(#Pfdf1==0\)&&\(#Pfdt1==0\)&&\(#Pfdf11==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@66048bfd->jspetrinet.petri.ExpTrans@7e0babb1
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 418.85 527.33 moveto
+373.32 517.64 254.49 492.34 175.33 475.49 curveto
+stroke
+0 0 0 edgecolor
+newpath 175.9 472.03 moveto
+165.4 473.37 lineto
+174.45 478.88 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 175.9 472.03 moveto
+165.4 473.37 lineto
+174.45 478.88 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@233c0b17
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+531.5 382.62 22.24 22.24 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+520.5 380.12 moveto 22 (Pfdt1) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@445b84c0->jspetrinet.petri.Place@233c0b17
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 531.5 443.13 moveto
+531.5 435.2 531.5 424.99 531.5 415.27 curveto
+stroke
+0 0 0 edgecolor
+newpath 535 415.05 moveto
+531.5 405.05 lineto
+528 415.05 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 535 415.05 moveto
+531.5 405.05 lineto
+528 415.05 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@7bb11784
+gsave
+0 0 0.82745 nodecolor
+newpath 631 321.9 moveto
+432 321.9 lineto
+432 291.9 lineto
+631 291.9 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 631 321.9 moveto
+432 321.9 lineto
+432 291.9 lineto
+631 291.9 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+523.5 309.9 moveto 16 (fdt1) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+440 298.9 moveto 183 ([\(#Pfdf2==0\)&&\(#Pfdt2==0\)&&\(#Pfdf12==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@233c0b17->jspetrinet.petri.ImmTrans@7bb11784
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 531.5 359.9 moveto
+531.5 351.2 531.5 341.14 531.5 332.21 curveto
+stroke
+0 0 0 edgecolor
+newpath 535 332.02 moveto
+531.5 322.02 lineto
+528 332.02 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 535 332.02 moveto
+531.5 322.02 lineto
+528 332.02 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@7006c658
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+531.5 231.17 22.24 22.24 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+520.5 228.67 moveto 22 (Pfdt2) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@7bb11784->jspetrinet.petri.Place@7006c658
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 531.5 291.68 moveto
+531.5 283.75 531.5 273.54 531.5 263.83 curveto
+stroke
+0 0 0 edgecolor
+newpath 535 263.61 moveto
+531.5 253.61 lineto
+528 263.61 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 535 263.61 moveto
+531.5 253.61 lineto
+528 263.61 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@47fd17e3
+gsave
+0 0 0.82745 nodecolor
+newpath 631 170.45 moveto
+432 170.45 lineto
+432 140.45 lineto
+631 140.45 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 631 170.45 moveto
+432 170.45 lineto
+432 140.45 lineto
+631 140.45 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+523.5 158.45 moveto 16 (fdt2) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+440 147.45 moveto 183 ([\(#Pfdf3==0\)&&\(#Pfdt3==0\)&&\(#Pfdf13==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@7006c658->jspetrinet.petri.ImmTrans@47fd17e3
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 531.5 208.45 moveto
+531.5 199.75 531.5 189.7 531.5 180.76 curveto
+stroke
+0 0 0 edgecolor
+newpath 535 180.58 moveto
+531.5 170.58 lineto
+528 180.58 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 535 180.58 moveto
+531.5 170.58 lineto
+528 180.58 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@3aa9e816
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+510.5 79.72 22.24 22.24 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+499.5 77.22 moveto 22 (Pfdt3) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@47fd17e3->jspetrinet.petri.Place@3aa9e816
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 527.45 140.23 moveto
+525.11 132.01 522.07 121.33 519.21 111.3 curveto
+stroke
+0 0 0 edgecolor
+newpath 522.55 110.25 moveto
+516.44 101.59 lineto
+515.82 112.17 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 522.55 110.25 moveto
+516.44 101.59 lineto
+515.82 112.17 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@3834d63f
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 376.5 19 moveto
+318.5 19 lineto
+318.5 0 lineto
+376.5 0 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+343.5 7 moveto 8 (f2) alignedtext
+grestore
+% jspetrinet.petri.Place@3aa9e816->jspetrinet.petri.ExpTrans@3834d63f
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 490.19 70.22 moveto
+461.8 58.34 410.08 36.69 377.32 22.98 curveto
+stroke
+0 0 0 edgecolor
+newpath 378.39 19.63 moveto
+367.81 19 lineto
+375.69 26.09 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 378.39 19.63 moveto
+367.81 19 lineto
+375.69 26.09 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@75bd9247
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 608.5 19 moveto
+550.5 19 lineto
+550.5 0 lineto
+608.5 0 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+577.5 7 moveto 4 (f) alignedtext
+grestore
+% jspetrinet.petri.Place@3aa9e816->jspetrinet.petri.ExpTrans@75bd9247
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 526.16 63.24 moveto
+537.29 52.23 552.2 37.49 563.43 26.39 curveto
+stroke
+0 0 0 edgecolor
+newpath 566.2 28.58 moveto
+570.85 19.06 lineto
+561.27 23.6 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 566.2 28.58 moveto
+570.85 19.06 lineto
+561.27 23.6 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@35bbe5e8
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 532.5 19 moveto
+474.5 19 lineto
+474.5 0 lineto
+532.5 0 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+500 7 moveto 7 (ff) alignedtext
+grestore
+% jspetrinet.petri.Place@3aa9e816->jspetrinet.petri.ExpTrans@35bbe5e8
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 508.29 57.14 moveto
+507.37 48.23 506.32 38.01 505.44 29.41 curveto
+stroke
+0 0 0 edgecolor
+newpath 508.9 28.87 moveto
+504.4 19.28 lineto
+501.94 29.58 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 508.9 28.87 moveto
+504.4 19.28 lineto
+501.94 29.58 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@6fffcba5
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+317.5 79.72 21.56 21.56 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+307 77.22 moveto 21 (Pfef3) alignedtext
+grestore
+% jspetrinet.petri.Place@6fffcba5->jspetrinet.petri.ExpTrans@3834d63f
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 326.02 59.36 moveto
+330.29 49.64 335.44 37.94 339.62 28.42 curveto
+stroke
+0 0 0 edgecolor
+newpath 342.87 29.72 moveto
+343.69 19.16 lineto
+336.46 26.9 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 342.87 29.72 moveto
+343.69 19.16 lineto
+336.46 26.9 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@2ff4f00f
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 295.5 19 moveto
+237.5 19 lineto
+237.5 0 lineto
+295.5 0 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+262.5 7 moveto 8 (f1) alignedtext
+grestore
+% jspetrinet.petri.Place@6fffcba5->jspetrinet.petri.ExpTrans@2ff4f00f
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 304.89 61.86 moveto
+297.05 51.36 286.99 37.9 279.13 27.4 curveto
+stroke
+0 0 0 edgecolor
+newpath 281.7 24.99 moveto
+272.91 19.08 lineto
+276.09 29.18 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 281.7 24.99 moveto
+272.91 19.08 lineto
+276.09 29.18 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@2aafb23c
+gsave
+0 0 0.82745 nodecolor
+newpath 414 170.45 moveto
+217 170.45 lineto
+217 140.45 lineto
+414 140.45 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 414 170.45 moveto
+217 170.45 lineto
+217 140.45 lineto
+414 140.45 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+307.5 158.45 moveto 16 (fef2) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+225 147.45 moveto 181 ([\(#Pfef3==0\)&&\(#Pfet3==0\)&&\(#Pfef13==0\)]) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@2aafb23c->jspetrinet.petri.Place@6fffcba5
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 315.89 140.23 moveto
+316.11 132.1 316.39 121.56 316.66 111.61 curveto
+stroke
+0 0 0 edgecolor
+newpath 320.16 111.68 moveto
+316.93 101.59 lineto
+313.16 111.49 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 320.16 111.68 moveto
+316.93 101.59 lineto
+313.16 111.49 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@3ab39c39
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+315.5 231.17 21.56 21.56 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+305 228.67 moveto 21 (Pfef2) alignedtext
+grestore
+% jspetrinet.petri.Place@3ab39c39->jspetrinet.petri.ImmTrans@2aafb23c
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 315.5 209.24 moveto
+315.5 200.43 315.5 190.11 315.5 180.95 curveto
+stroke
+0 0 0 edgecolor
+newpath 319 180.88 moveto
+315.5 170.88 lineto
+312 180.88 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 319 180.88 moveto
+315.5 170.88 lineto
+312 180.88 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@7907ec20
+gsave
+0 0 0.82745 nodecolor
+newpath 414 321.9 moveto
+217 321.9 lineto
+217 291.9 lineto
+414 291.9 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 414 321.9 moveto
+217 321.9 lineto
+217 291.9 lineto
+414 291.9 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+307.5 309.9 moveto 16 (fef1) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+225 298.9 moveto 181 ([\(#Pfef2==0\)&&\(#Pfet2==0\)&&\(#Pfef12==0\)]) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@7907ec20->jspetrinet.petri.Place@3ab39c39
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 315.5 291.68 moveto
+315.5 283.54 315.5 273 315.5 263.06 curveto
+stroke
+0 0 0 edgecolor
+newpath 319 263.04 moveto
+315.5 253.04 lineto
+312 263.04 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 319 263.04 moveto
+315.5 253.04 lineto
+312 263.04 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@721e0f4f
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+315.5 382.62 21.56 21.56 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+305 380.12 moveto 21 (Pfef1) alignedtext
+grestore
+% jspetrinet.petri.Place@721e0f4f->jspetrinet.petri.ImmTrans@7907ec20
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 315.5 360.69 moveto
+315.5 351.88 315.5 341.56 315.5 332.4 curveto
+stroke
+0 0 0 edgecolor
+newpath 319 332.33 moveto
+315.5 322.33 lineto
+312 332.33 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 319 332.33 moveto
+315.5 322.33 lineto
+312 332.33 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@6ea6d14e
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 414 473.34 moveto
+217 473.34 lineto
+217 443.34 lineto
+414 443.34 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+311.5 461.34 moveto 8 (ef) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+225 450.34 moveto 181 ([\(#Pfef1==0\)&&\(#Pfet1==0\)&&\(#Pfef11==0\)]) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@6ea6d14e->jspetrinet.petri.Place@721e0f4f
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 315.5 443.13 moveto
+315.5 434.99 315.5 424.45 315.5 414.51 curveto
+stroke
+0 0 0 edgecolor
+newpath 319 414.49 moveto
+315.5 404.49 lineto
+312 414.49 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 319 414.49 moveto
+315.5 404.49 lineto
+312 414.49 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@6833ce2c
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+582.5 532.3 18.5 18.5 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+575 529.8 moveto 15 (Pe2) alignedtext
+grestore
+% jspetrinet.petri.Place@6833ce2c->jspetrinet.petri.ExpTrans@6ea6d14e
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 564.98 526.58 moveto
+527.62 516.51 438.54 492.5 377.6 476.08 curveto
+stroke
+0 0 0 edgecolor
+newpath 378.26 472.63 moveto
+367.69 473.41 lineto
+376.44 479.39 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 378.26 472.63 moveto
+367.69 473.41 lineto
+376.44 479.39 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@6adca536
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 846 473.34 moveto
+649 473.34 lineto
+649 443.34 lineto
+846 443.34 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+743.5 461.34 moveto 8 (et) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+657 450.34 moveto 181 ([\(#Pfef1==0\)&&\(#Pfet1==0\)&&\(#Pfef11==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@6833ce2c->jspetrinet.petri.ExpTrans@6adca536
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 598.92 524.14 moveto
+623.66 513.35 671.27 492.59 705.95 477.46 curveto
+stroke
+0 0 0 edgecolor
+newpath 707.59 480.57 moveto
+715.36 473.36 lineto
+704.79 474.15 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 707.59 480.57 moveto
+715.36 473.36 lineto
+704.79 474.15 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@2aaf7cc2
+gsave
+0 0 0.82745 nodecolor
+newpath 645.5 621.26 moveto
+519.5 621.26 lineto
+519.5 591.26 lineto
+645.5 591.26 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 645.5 621.26 moveto
+519.5 621.26 lineto
+519.5 591.26 lineto
+645.5 591.26 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+580 609.26 moveto 5 (e) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+527.5 598.26 moveto 110 ([\(#Pe2==0\)&&\(#Pef12==0\)]) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@2aaf7cc2->jspetrinet.petri.Place@6833ce2c
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 582.5 591.04 moveto
+582.5 582.47 582.5 571.26 582.5 561 curveto
+stroke
+0 0 0 edgecolor
+newpath 586 560.8 moveto
+582.5 550.8 lineto
+579 560.8 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 586 560.8 moveto
+582.5 550.8 lineto
+579 560.8 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@1888ff2c->jspetrinet.petri.ImmTrans@2aaf7cc2
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 554.49 661.41 moveto
+559.14 652.43 565.09 640.92 570.31 630.83 curveto
+stroke
+0 0 0 edgecolor
+newpath 573.54 632.2 moveto
+575.02 621.71 lineto
+567.32 628.99 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 573.54 632.2 moveto
+575.02 621.71 lineto
+567.32 628.99 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@28f67ac7
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+747.5 382.62 21.56 21.56 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+737 380.12 moveto 21 (Pfet1) alignedtext
+grestore
+% jspetrinet.petri.ExpTrans@6adca536->jspetrinet.petri.Place@28f67ac7
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 747.5 443.13 moveto
+747.5 434.99 747.5 424.45 747.5 414.51 curveto
+stroke
+0 0 0 edgecolor
+newpath 751 414.49 moveto
+747.5 404.49 lineto
+744 414.49 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 751 414.49 moveto
+747.5 404.49 lineto
+744 414.49 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@2a18f23c
+gsave
+0 0 0.82745 nodecolor
+newpath 846 321.9 moveto
+649 321.9 lineto
+649 291.9 lineto
+846 291.9 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 846 321.9 moveto
+649 321.9 lineto
+649 291.9 lineto
+846 291.9 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+739.5 309.9 moveto 16 (fet1) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+657 298.9 moveto 181 ([\(#Pfef2==0\)&&\(#Pfet2==0\)&&\(#Pfef12==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@28f67ac7->jspetrinet.petri.ImmTrans@2a18f23c
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 747.5 360.69 moveto
+747.5 351.88 747.5 341.56 747.5 332.4 curveto
+stroke
+0 0 0 edgecolor
+newpath 751 332.33 moveto
+747.5 322.33 lineto
+744 332.33 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 751 332.33 moveto
+747.5 322.33 lineto
+744 332.33 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@16c0663d
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+747.5 231.17 21.56 21.56 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+737 228.67 moveto 21 (Pfet2) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@2a18f23c->jspetrinet.petri.Place@16c0663d
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 747.5 291.68 moveto
+747.5 283.54 747.5 273 747.5 263.06 curveto
+stroke
+0 0 0 edgecolor
+newpath 751 263.04 moveto
+747.5 253.04 lineto
+744 263.04 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 751 263.04 moveto
+747.5 253.04 lineto
+744 263.04 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@4ec6a292
+gsave
+0 0 0.82745 nodecolor
+newpath 846 170.45 moveto
+649 170.45 lineto
+649 140.45 lineto
+846 140.45 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 846 170.45 moveto
+649 170.45 lineto
+649 140.45 lineto
+846 140.45 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+739.5 158.45 moveto 16 (fet2) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+657 147.45 moveto 181 ([\(#Pfef3==0\)&&\(#Pfet3==0\)&&\(#Pfef13==0\)]) alignedtext
+grestore
+% jspetrinet.petri.Place@16c0663d->jspetrinet.petri.ImmTrans@4ec6a292
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 747.5 209.24 moveto
+747.5 200.43 747.5 190.11 747.5 180.95 curveto
+stroke
+0 0 0 edgecolor
+newpath 751 180.88 moveto
+747.5 170.88 lineto
+744 180.88 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 751 180.88 moveto
+747.5 170.88 lineto
+744 180.88 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@ea4a92b
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+576.5 79.72 21.56 21.56 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+566 77.22 moveto 21 (Pfet3) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@4ec6a292->jspetrinet.petri.Place@ea4a92b
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 714.93 140.41 moveto
+683.28 126.76 635.67 106.23 605.35 93.16 curveto
+stroke
+0 0 0 edgecolor
+newpath 606.72 89.94 moveto
+596.15 89.2 lineto
+603.95 96.37 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 606.72 89.94 moveto
+596.15 89.2 lineto
+603.95 96.37 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@47f37ef1
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+newpath 455.5 19 moveto
+397.5 19 lineto
+397.5 0 lineto
+455.5 0 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+422.5 7 moveto 8 (f3) alignedtext
+grestore
+% jspetrinet.petri.Place@ea4a92b->jspetrinet.petri.ExpTrans@47f37ef1
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 559.18 65.85 moveto
+553.69 62.08 547.48 58.13 541.5 55 curveto
+516.39 41.85 486.49 30.4 463.47 22.41 curveto
+stroke
+0 0 0 edgecolor
+newpath 464.34 19 moveto
+453.75 19.09 lineto
+462.08 25.63 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 464.34 19 moveto
+453.75 19.09 lineto
+462.08 25.63 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@ea4a92b->jspetrinet.petri.ExpTrans@75bd9247
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 577.42 57.88 moveto
+577.82 48.74 578.29 38.08 578.68 29.19 curveto
+stroke
+0 0 0 edgecolor
+newpath 582.18 29.27 moveto
+579.12 19.13 lineto
+575.18 28.96 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 582.18 29.27 moveto
+579.12 19.13 lineto
+575.18 28.96 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@ea4a92b->jspetrinet.petri.ExpTrans@35bbe5e8
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 561.02 64.26 moveto
+549.07 53.09 532.57 37.66 520.3 26.2 curveto
+stroke
+0 0 0 edgecolor
+newpath 522.64 23.59 moveto
+512.94 19.32 lineto
+517.86 28.71 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 522.64 23.59 moveto
+512.94 19.32 lineto
+517.86 28.71 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@71c7db30
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+255.5 79.72 22.24 22.24 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+244.5 77.22 moveto 22 (Pfdf3) alignedtext
+grestore
+% jspetrinet.petri.Place@71c7db30->jspetrinet.petri.ExpTrans@47f37ef1
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 272.17 64.3 moveto
+276.62 60.93 281.57 57.57 286.5 55 curveto
+318.87 38.13 358.8 26.21 387.73 18.98 curveto
+stroke
+0 0 0 edgecolor
+newpath 388.58 22.38 moveto
+397.47 16.62 lineto
+386.93 15.58 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 388.58 22.38 moveto
+397.47 16.62 lineto
+386.93 15.58 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@71c7db30->jspetrinet.petri.ExpTrans@2ff4f00f
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 258.92 57.51 moveto
+260.39 48.38 262.1 37.8 263.52 29 curveto
+stroke
+0 0 0 edgecolor
+newpath 266.99 29.46 moveto
+265.12 19.03 lineto
+260.08 28.35 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 266.99 29.46 moveto
+265.12 19.03 lineto
+260.08 28.35 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@4563e9ab
+gsave
+0 0 0.82745 nodecolor
+newpath 199 170.45 moveto
+0 170.45 lineto
+0 140.45 lineto
+199 140.45 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 199 170.45 moveto
+0 170.45 lineto
+0 140.45 lineto
+199 140.45 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+91.5 158.45 moveto 16 (fdf2) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+8 147.45 moveto 183 ([\(#Pfdf3==0\)&&\(#Pfdt3==0\)&&\(#Pfdf13==0\)]) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@4563e9ab->jspetrinet.petri.Place@71c7db30
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 129.21 140.41 moveto
+157.05 127.25 198.41 107.7 226.13 94.6 curveto
+stroke
+0 0 0 edgecolor
+newpath 227.78 97.7 moveto
+235.33 90.26 lineto
+224.79 91.37 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 227.78 97.7 moveto
+235.33 90.26 lineto
+224.79 91.37 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@5e025e70
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+99.5 231.17 22.24 22.24 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+88.5 228.67 moveto 22 (Pfdf2) alignedtext
+grestore
+% jspetrinet.petri.Place@5e025e70->jspetrinet.petri.ImmTrans@4563e9ab
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 99.5 208.45 moveto
+99.5 199.75 99.5 189.7 99.5 180.76 curveto
+stroke
+0 0 0 edgecolor
+newpath 103 180.58 moveto
+99.5 170.58 lineto
+96 180.58 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 103 180.58 moveto
+99.5 170.58 lineto
+96 180.58 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ImmTrans@45c8e616
+gsave
+0 0 0.82745 nodecolor
+newpath 199 321.9 moveto
+0 321.9 lineto
+0 291.9 lineto
+199 291.9 lineto
+closepath fill
+1 setlinewidth
+filled
+dashed
+0 0 0 nodecolor
+newpath 199 321.9 moveto
+0 321.9 lineto
+0 291.9 lineto
+199 291.9 lineto
+closepath stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+91.5 309.9 moveto 16 (fdf1) alignedtext
+0 0 0 nodecolor
+10 /Times-Roman set_font
+8 298.9 moveto 183 ([\(#Pfdf2==0\)&&\(#Pfdt2==0\)&&\(#Pfdf12==0\)]) alignedtext
+grestore
+% jspetrinet.petri.ImmTrans@45c8e616->jspetrinet.petri.Place@5e025e70
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 99.5 291.68 moveto
+99.5 283.75 99.5 273.54 99.5 263.83 curveto
+stroke
+0 0 0 edgecolor
+newpath 103 263.61 moveto
+99.5 253.61 lineto
+96 263.61 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 103 263.61 moveto
+99.5 253.61 lineto
+96 263.61 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.Place@66d33a
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+99.5 382.62 22.24 22.24 ellipse_path stroke
+0 0 0 nodecolor
+10 /Times-Roman set_font
+88.5 380.12 moveto 22 (Pfdf1) alignedtext
+grestore
+% jspetrinet.petri.Place@66d33a->jspetrinet.petri.ImmTrans@45c8e616
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 99.5 359.9 moveto
+99.5 351.2 99.5 341.14 99.5 332.21 curveto
+stroke
+0 0 0 edgecolor
+newpath 103 332.02 moveto
+99.5 322.02 lineto
+96 332.02 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 103 332.02 moveto
+99.5 322.02 lineto
+96 332.02 lineto
+closepath stroke
+grestore
+% jspetrinet.petri.ExpTrans@7e0babb1->jspetrinet.petri.Place@66d33a
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 99.5 443.13 moveto
+99.5 435.2 99.5 424.99 99.5 415.27 curveto
+stroke
+0 0 0 edgecolor
+newpath 103 415.05 moveto
+99.5 405.05 lineto
+96 415.05 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 103 415.05 moveto
+99.5 405.05 lineto
+96 415.05 lineto
+closepath stroke
+grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+end
+restore
+%%EOF

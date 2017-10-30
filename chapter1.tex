@@ -1,0 +1,38 @@
+%%%%% 第１章 %%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Introduction}
+
+%製品の加工工程順に機械を配置し流れ作業を行う生産システムをフローショップと呼び，フローショップの中でも各工程に複数の機械を配置し並列的に作業を行うシステムをフレキシブルフローショップ(FFS)と呼ぶ．
+%FFSでは並列的な処理が行われるためシステム性能の評価が設計や計画において重要となる．
+%Zhangら$\cite{siryo1}$はマッチング処理制約を伴う4工程FFSに関する性能評価を行っている．マッチング処理制約とは，二つの異なる部品を加工する際に特定のペアを組み合わせる制約であり，FFSにおけるボトルネックとなり得る．
+%具体的に，Zhangら $\cite{siryo1}$ は，解析的な近似手法を用いてスループット及びジョブの系内滞在時間による性能評価を行っている．
+%しかしながら，文献$\cite{siryo1}$では，不良部品が発生する場合について考慮されておらず，不良部品の発生ならびに廃棄がマッチング処理制約のあるFFSに与える影響について明らかになっていない．
+%そこで本論文ではZhang $\cite{siryo1}$ が考えた4工程FFSにおいて，各工程で不良部品が発生することを想定し，不良部品の発生と廃棄が与える影響を確率モデルを用いた性能評価を通じて調査する．
+%具体的に，本論文では(i)マッチング処理制約のある場合とない場合のFFSに対する性能比較，(i\hspace{-.1em}i)異なる不良部品の廃棄タイミングの比較を行い，マッチング処理制約のあるFFSにおいて不良部品の発生が与える影響を詳細に調査する．
+%
+%本論文の構成は以下の通りである．
+%第2章では，Zhangら $\cite{siryo1}$ の待ち行列ネットワークを用いたマッチング処理制約を伴う4工程FFS，及び本論文で使用する解析手法について紹介する．
+%第3章では，不良部品が発生する状況において，マッチング処理制約がある場合とない場合のFFSに対する性能評価を行い，マッチング処理制約と不良部品の発生の関係を明らかにする．
+%第4章では，マッチング処理制約があるFFSにおいて4通りの廃棄タイミングを考慮し，それらの性能比較を通じて最適な廃棄タイミングの考察を行う．
+%第5章では，本論文のまとめと今後の課題について述べる．
+
+The production system which arrange machines in order to process products, is called flow shop.
+Among flow shop, the flo system which arrange machines parallel in each process is called Flexible Flow Shop (FFS).
+Parallel processing in done in FFS so the evaluation of system performance becomes importatn in design and planning phase.
+In past, performance evaluation on 4 step FFS with match processing constraint is done by Zhang et al. $\cite{siryo1}$.
+Match processing constraint is constraint which requires specific pairs when processing two different parts, and it can be bottleneck for FFS.
+Concretely, Zhange et al. $\cite{siryo1}$ used analytical approximation method to evaluate performance of throughput and staying time in system.
+But in reference $\cite{siryo1}$, the case when defective parts occurs were not considered and how occurence and discarding of defective parts affect FFS with match processing 
+constraints.
+In this paper, we assume that in each process of 4 step FFS Zhange $\cite{siryo1}$ failure can occur, and investigate the impact of occurence and removal of defective parts 
+through perfomarnce evaluation using probablistic models.
+To be more specific, we will (i) compare performance for FFS with and without match processing constraint, (i$\hspace{-.1em}$i) compare the removal timing of defective parts and 
+investigate the influence of the occurence of defective parts.
+
+
+The structure of this paper is as follows.
+In chapter 2, we will introduce queueing network of 4 step FFS with match processing constraint which Zhang $\cite{siryo1}$ used and analysis method used in this paper.
+In chapter 3, we clarify the relationship between match processing constraint and occurence of defective parts by performance evaluation for FFS with and without constraint under 
+situation where defective parts can occur.
+In chapter 4, we consider 4 removal timings in the FFS with match processing constraints and consider the optimum removal timing by comparing their performance.
+In chapter 5, we state summary of this paper and future works to be done.
